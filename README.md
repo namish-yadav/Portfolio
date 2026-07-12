@@ -111,7 +111,7 @@ If you found this project useful:
 
 * GitHub: https://github.com/namish-yadav
 * Portfolio: https://portfolio-rho-lake-21.vercel.app/
-* Instagram: https://instagram.com/namishyadv
+* Instagram: https://instagram.com/nam7sh
 
 ## 📄 License
 

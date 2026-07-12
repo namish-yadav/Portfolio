@@ -72,7 +72,7 @@ export default function HeroSection() {
               <Linkedin className="w-5 h-5 text-white" />
             </a>
             <a 
-              href="https://instagram.com/namishyadv" 
+              href="https://instagram.com/nam7sh" 
               target="_blank" rel="noopener noreferrer"
               className="p-3 rounded-full bg-white/10 hover:bg-[#e945f5]/20 border border-white/10 hover:border-[#e945f5]/50 transition-all duration-300"
               aria-label="Instagram"

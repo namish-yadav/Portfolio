@@ -313,7 +313,7 @@ export default function ContactPage() {
                 LinkedIn
               </a>
               <a
-  href="https://instagram.com/namishyadv"
+  href="https://instagram.com/nam7sh"
   target="_blank"
   rel="noopener noreferrer"
   className="flex items-center gap-2 px-6 py-3 bg-white/5 border border-white/10 rounded-full hover:bg-white/10 transition-all"
