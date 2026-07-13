@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Heart } from "lucide-react";
+import {Instagram , Github, Linkedin, Mail, Heart } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Logo & Copyright */}
           <div className="flex flex-col items-center md:items-start gap-2">
             <span className="text-2xl font-bold text-white">
-              Namish<span className="text-[#e945f5]">.</span>
+              Namish Yadav<span className="text-[#e945f5]">.</span>
             </span>
             <p className="text-neutral-500 text-sm flex items-center gap-1">
               Made with <Heart className="w-3 h-3 text-[#e945f5] fill-[#e945f5]" /> in 2026
@@ -25,6 +25,27 @@ export default function Footer() {
 
           {/* Social Links */}
           <div className="flex items-center gap-3">
+
+             <a 
+              href="https://linkedin.com/in/namish-yadav" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-2 rounded-full bg-white/5 hover:bg-[#e945f5]/20 border border-white/10 hover:border-[#e945f5]/50 transition-all duration-300"
+              aria-label="LinkedIn"
+            >
+              <Linkedin className="w-4 h-4 text-neutral-400 hover:text-white" />
+            </a>
+
+             <a 
+  href="https://instagram.com/nam7sh" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="p-2 rounded-full bg-white/5 hover:bg-[#e945f5]/20 border border-white/10 hover:border-[#e945f5]/50 transition-all duration-300"
+  aria-label="Instagram"
+>
+  <Instagram className="w-4 h-4 text-neutral-400 hover:text-white" />
+</a>
+            
             <a 
               href="https://github.com/namish-yadav" 
               target="_blank" 
@@ -34,15 +55,7 @@ export default function Footer() {
             >
               <Github className="w-4 h-4 text-neutral-400 hover:text-white" />
             </a>
-            <a 
-              href="https://linkedin.com/in/namish-yadav" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="p-2 rounded-full bg-white/5 hover:bg-[#e945f5]/20 border border-white/10 hover:border-[#e945f5]/50 transition-all duration-300"
-              aria-label="LinkedIn"
-            >
-              <Linkedin className="w-4 h-4 text-neutral-400 hover:text-white" />
-            </a>
+           
             <a 
               href="mailto:nam4sh@gmail.com"
               className="p-2 rounded-full bg-white/5 hover:bg-[#e945f5]/20 border border-white/10 hover:border-[#e945f5]/50 transition-all duration-300"
