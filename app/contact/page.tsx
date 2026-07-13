@@ -68,17 +68,17 @@ export default function ContactPage() {
     <main className="relative min-h-screen bg-[#0a0a0f] text-white overflow-hidden">
       {/* Background */}
       <div className="fixed inset-0 z-0">
-        <FloatingLines
-          linesGradient={["#e945f5", "#8b5cf6", "#3b82f6", "#06b6d4"]}
-          enabledWaves={["top", "middle", "bottom"]}
-          lineCount={[8, 12, 16]}
-          lineDistance={[8, 6, 4]}
-          bendRadius={5.0}
-          bendStrength={-0.5}
-          interactive={true}
-          parallax={true}
-          animationSpeed={0.8}
-        />
+       <FloatingLines
+    linesGradient={["#3b0764", "#1e1b3a", "#0f0f14"]}
+    enabledWaves={["top", "middle", "bottom"]}
+    lineCount={[5, 7, 9]}
+    lineDistance={[10, 8, 6]}
+    bendRadius={5.0}
+    bendStrength={-0.3}
+    interactive={true}
+    parallax={true}
+    animationSpeed={0.4}
+  />
       </div>
 
       {/* Navigation */}
@@ -117,7 +117,7 @@ export default function ContactPage() {
               Get in <span className="text-[#e945f5]">Touch</span>
             </h1>
             <p className="text-white/60 text-lg max-w-md mx-auto">
-              Have a project in mind or just want to say hello? I&apos;d love to hear from you.
+              Have a project in mind or just want to say hello? I&apos;d <span className="text-[#9333ea]">love</span> to hear from you.
             </p>
           </div>
 
@@ -170,7 +170,7 @@ export default function ContactPage() {
                 value={formData.subject}
                 onChange={handleChange}
                 required
-                placeholder="Project Inquiry"
+                placeholder="Website Redesign, Job Opportunity, or just saying hi"
                 className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder:text-white/30 focus:outline-none focus:border-[#e945f5] focus:ring-1 focus:ring-[#e945f5] transition-all"
               />
             </div>
@@ -186,7 +186,7 @@ export default function ContactPage() {
                 onChange={handleChange}
                 required
                 rows={5}
-                placeholder="Tell me about your project..."
+                placeholder="Tell me about your project, idea, or how I can help..."
                 className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder:text-white/30 focus:outline-none focus:border-[#e945f5] focus:ring-1 focus:ring-[#e945f5] transition-all resize-none"
               />
             </div>
