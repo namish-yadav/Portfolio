@@ -508,7 +508,7 @@ export default function ProjectsSection() {
             Projects<span style={{ color: '#e945f5' }}>.</span>
           </h2>
           <p className="text-neutral-400 mt-4 text-lg">
-            Auto-synced from GitHub. Push a repo and it appears here automatically.
+            Auto-synced from GitHub.
           </p>
         </div>
 
