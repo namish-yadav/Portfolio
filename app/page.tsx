@@ -34,9 +34,9 @@ export default function Page() {
       {/* Background — unchanged */}
       <div className="fixed inset-0 z-0">
         <FloatingLines
-          gradientStart="#e945f5"
-          gradientMid="#6f6f6f"
-          gradientEnd="#6a6a6a"
+           gradientStart="#2d1b4e"   // deep muted violet
+  gradientMid="#7c3aed"     // subtle purple accent
+  gradientEnd="#0f0f14"     // near-black charcoal
           enabledWaves={["top", "middle", "bottom"]}
           lineCount={8}
           lineDistance={8}
